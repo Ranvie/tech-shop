@@ -1,0 +1,141 @@
+body{
+    background-color: #D9D9D9 !important;
+}
+
+.wrap{
+    width: 98%;
+    margin: auto;
+    height: 410px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.multilist-container{
+    margin-top: -50px;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.block{
+    display: inline-block;
+    height: 400px;
+    width: 350px;
+    margin-left: 15px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.block > *{
+    position: relative;
+    white-space: normal;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.previous-button{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 49% !important;
+    z-index: 10;
+}
+
+.previous-button img{
+    float: left;
+    transform: rotate(180deg);
+    height: 50px;
+    opacity: 0.6;
+}
+
+.previous-button img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.next-button{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 49% !important;
+    z-index: 10;
+}
+
+.next-button img{
+    float: right;
+    height: 50px;
+    opacity: 0.6;
+}
+
+.next-button img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.clear{
+    clear: both;
+}
+
+.card-img-top{
+    height: 225px;
+}
+
+.orange-background{
+    background-color: #DF6004;
+}
+
+.white-background{
+    background-color: white;
+}
+
+.jumbotron{
+    background-color: transparent !important;
+}
+
+.jumbotron p{
+    margin-left: 30px;
+}
+
+.clear-margin{
+    margin: 0 !important;
+}
+
+.clear-margin-bottom{
+    margin-bottom: 0 !important;
+}
+
+.clear-padding{
+    padding: 0 !important;
+}
+
+.clear-padding-bottom{
+    padding-bottom: 0 !important;
+}
+
+.footer-menu{
+    padding: 20px;
+}
+
+.footer-menu a{
+    color: white;
+}
+
+.footer-menu p{
+    color: white;
+}
+
+.footer-menu a:hover{
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+
+.copyright{
+    border-top: lightgray solid 1px;
+}
+
+.copyright p{
+    margin-top: 30px;
+    font-size: 1.3em;
+}
